@@ -25,36 +25,40 @@ struct ContentView: View {
                     .font(.system(size: 30, weight: .bold, design: .default))
                     .padding()
                 // name of new cases
+                
+                
                 VStack{
+                    
+                
         // الحالة الأولى
                 // الاسم
-               Text("")
-// المنطقة
-                Text("")
+                    Text("الاسم: \(uci[0].fullName)")
+                
+// المنطق
+                    Text("المنطقة: \(uci[0].area)")
                     // عدد الجرعات
-               Text("")
-
+                    Text("عدد الجرعات: \(uci[0].numberOfDoses)")
                 Divider()
                 }
                 VStack{
         // الحالة الثانية
                 // الاسم
-               Text("")
+               Text("الاسم: \(uci[1].fullName)")
                 // المنطقة
-               Text("")
+               Text("المنطقة: \(uci[1].area)")
     // عدد الجرعات
-               Text("")
+               Text("عدد الجرعات: \(uci[1].numberOfDoses)")
 
                 Divider()
                 }
                 VStack{
               // الحالة الثالثة
                       // الاسم
-                     Text("")
+                     Text("الاسم: \(uci[2].fullName)")
                       // المنطقة
-                     Text("")
+                     Text("المنطقة: \(uci[2].area)")
           // عدد الجرعات
-                     Text("")
+                     Text("عدد الجرعات: \(uci[2].numberOfDoses)")
                 }
                 Spacer()
                 HStack{
