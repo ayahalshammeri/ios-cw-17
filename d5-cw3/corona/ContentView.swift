@@ -25,7 +25,8 @@ struct ContentView: View {
                     .font(.system(size: 30, weight: .bold, design: .default))
                     .padding()
                 // name of new cases
-                ForEach(uci, id: \.id) { a in
+//                ForEach(uci, id: \.id) { a in
+                  List(uci, id: \.id) { a in
                     VStack{
                         Text("\(a.fullName)")
                     

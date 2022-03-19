@@ -16,6 +16,13 @@ struct UserCovidInfo: Identifiable {
 var uci = [
     UserCovidInfo(fullName: " ساره فهد", area:"الروضه",numberOfDoses: 2),
     UserCovidInfo(fullName: "نوره محمد", area:"العارضية",numberOfDoses: 1) ,
-    UserCovidInfo(fullName: "راشد علي", area:"الاحمدي",numberOfDoses: 0)
+    UserCovidInfo(fullName: "راشد علي", area:"الاحمدي",numberOfDoses: 0),
+    ///////////////
+    ///    UserCovidInfo(fullName: " ساره فهد", area:"الروضه",numberOfDoses: 2),
+    UserCovidInfo(fullName: "نوره محمد", area:"العارضية",numberOfDoses: 1) ,
+    UserCovidInfo(fullName: "راشد علي", area:"الاحمدي",numberOfDoses: 0),
+    UserCovidInfo(fullName: " ساره فهد", area:"الروضه",numberOfDoses: 2),
+    UserCovidInfo(fullName: "نوره محمد", area:"العارضية",numberOfDoses: 1) ,
+    UserCovidInfo(fullName: "راشد علي", area:"الاحمدي",numberOfDoses: 0),
 ]
 
